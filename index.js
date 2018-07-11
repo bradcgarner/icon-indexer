@@ -1,10 +1,6 @@
-// This file includes all font awesome icons used in the app.
-// Benefits:
-// easier handling of breaking changes from FA,
-// easier to change icons globally,
-// easier to type semantic names of icons (with autocomplete) without worrying about typos
+'use strict';
 
-export const icons = () => ({
+const icons = () => ({
   home:      'fas fa-home',
   test:      'fas fa-cloud-download-alt',
   created:   'fas fa-flag-checkered',
@@ -63,4 +59,7 @@ export const icons = () => ({
   table:     'fas fa-table',
   edit:      'fas fa-edit',
   download:  'fas fa-download',
+  graph:     'fas fa-chart-line',
 });
+
+module.exports = { icons } ;
