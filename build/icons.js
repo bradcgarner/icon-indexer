@@ -60,7 +60,9 @@ var icons = function icons() {
     table: 'fas fa-table',
     edit: 'fas fa-edit',
     download: 'fas fa-download',
-    graph: 'fas fa-chart-line'
+    graph: 'fas fa-chart-line',
+    globe: 'fas fa-globe',
+    cog: 'fa fa-cog'
   };
 };
 
