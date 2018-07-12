@@ -60,6 +60,8 @@ const icons = () => ({
   edit:      'fas fa-edit',
   download:  'fas fa-download',
   graph:     'fas fa-chart-line',
+  globe:     'fas fa-globe',
+  cog:       'fa fa-cog',
 });
 
 module.exports = { icons } ;
