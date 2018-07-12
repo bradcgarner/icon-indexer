@@ -1,5 +1,6 @@
 'use strict';
 
-const { icons } = require('./build/icons');
+var _require = require('./build/icons'),
+    icons = _require.icons;
 
-module.exports = { icons } ;
+module.exports = { icons: icons };
