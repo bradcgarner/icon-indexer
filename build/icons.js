@@ -2,6 +2,7 @@
 
 var icons = function icons() {
   return {
+    add: 'fas fa-plus',
     home: 'fas fa-home',
     test: 'fas fa-cloud-download-alt',
     created: 'fas fa-flag-checkered',

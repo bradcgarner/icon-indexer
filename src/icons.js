@@ -1,6 +1,7 @@
 'use strict';
 
 const icons = () => ({
+  add:       'fas fa-plus',
   home:      'fas fa-home',
   test:      'fas fa-cloud-download-alt',
   created:   'fas fa-flag-checkered',
