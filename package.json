@@ -1,6 +1,6 @@
 {
   "name": "icon-indexer",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Helper library to manage font-awesome icons",
   "main": "index.js",
   "scripts": {
