@@ -62,9 +62,42 @@ var icons = function icons() {
     edit: 'fas fa-edit',
     download: 'fas fa-download',
     graph: 'fas fa-chart-line',
+    graph2: 'fas fa-chart-area',
     globe: 'fas fa-globe',
-    cog: 'fa fa-cog'
+    cog: 'fa fa-cog',
+    overspray: 'fas fa-spray-can'
   };
 };
 
-module.exports = { icons: icons };
+var fun = function fun() {
+  return {
+    puzzle: 'fas fa-puzzle-piece',
+    shower: 'fas fa-shower',
+    raindrop: 'fas fa-tint',
+    martini: 'fas fa-glass-martini',
+    weight: 'fas fa-weight',
+    plants: 'fas fa-leaf',
+    heartbeat: 'fas fa-heartbeat',
+    bomb: 'fas fa-bomb',
+    anchor: 'fas fa-anchor',
+    angry: 'far fa-angry',
+    apple: 'fab fa-apple',
+    award: 'fas fa-award',
+    justice: 'fas fa-balance-scale',
+    bell: 'fas fa-bell',
+    cake: 'fas fa-birthday-cake',
+    binoculars: 'fas fa-binoculars',
+    bong: 'fas fa-bong',
+    dove: 'fas fa-dove',
+    bowling: 'fas fa-bowling-ball',
+    bug: 'fas fa-bug',
+    chess: 'fas fa-chess',
+    child: 'fas fa-child',
+    cocktail: 'fas fa-cocktail',
+    cookie: 'fas fa-cookie-bite',
+    crow: 'fas fa-crow',
+    dice: 'fas fa-dice'
+  };
+};
+
+module.exports = { icons: icons, fun: fun };
