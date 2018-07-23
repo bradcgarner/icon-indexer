@@ -80,23 +80,19 @@ var fun = function fun() {
     heartbeat: 'fas fa-heartbeat',
     bomb: 'fas fa-bomb',
     anchor: 'fas fa-anchor',
-    angry: 'far fa-angry',
     apple: 'fab fa-apple',
-    award: 'fas fa-award',
     justice: 'fas fa-balance-scale',
     bell: 'fas fa-bell',
     cake: 'fas fa-birthday-cake',
     binoculars: 'fas fa-binoculars',
-    bong: 'fas fa-bong',
-    dove: 'fas fa-dove',
     bowling: 'fas fa-bowling-ball',
     bug: 'fas fa-bug',
     chess: 'fas fa-chess',
     child: 'fas fa-child',
-    cocktail: 'fas fa-cocktail',
-    cookie: 'fas fa-cookie-bite',
-    crow: 'fas fa-crow',
-    dice: 'fas fa-dice'
+    bicycle: 'fas fa-bicycle',
+    bullhorn: 'fas fa-bullhorn',
+    bath: 'fas fa-bath',
+    battery: 'fas fa-battery-half'
   };
 };
 
