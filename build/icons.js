@@ -1,7 +1,11 @@
 'use strict';
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 var icons = function icons() {
-  return {
+  var _ref;
+
+  return _ref = {
     add: 'fas fa-plus',
     home: 'fas fa-home',
     test: 'fas fa-cloud-download-alt',
@@ -9,9 +13,11 @@ var icons = function icons() {
     built: 'fas fa-flag-checkered',
     start: 'fas fa-tint', // water drop
     on: 'fas fa-arrow-right',
+    right: 'fas fa-arrow-right',
     off: 'fas fa-times-circle',
     dismantled: 'fas fa-times-circle',
     end: 'fas fa-arrow-left',
+    left: 'fas fa-arrow-left',
     cassette: 'fas fa-inbox',
     component: 'fas fa-puzzle-piece',
     slope: 'fas fa-level-up-alt', // _|^
@@ -51,22 +57,8 @@ var icons = function icons() {
     paper: 'fas fa-image',
     print: 'fas fa-file',
     question: 'fas fa-question',
-    search: 'fas fa-search',
-    right: 'fas fa-caret-right',
-    left: 'fas fa-caret-left',
-    pdf: 'fas fa-file-pdf',
-    file: 'fas fa-file-alt',
-    pressure: 'fas fa-bomb',
-    temperature: 'fas fa-thermometer-quarter',
-    table: 'fas fa-table',
-    edit: 'fas fa-edit',
-    download: 'fas fa-download',
-    graph: 'fas fa-chart-line',
-    graph2: 'fas fa-chart-area',
-    globe: 'fas fa-globe',
-    cog: 'fa fa-cog',
-    overspray: 'fas fa-spray-can'
-  };
+    search: 'fas fa-search'
+  }, _defineProperty(_ref, 'right', 'fas fa-caret-right'), _defineProperty(_ref, 'left', 'fas fa-caret-left'), _defineProperty(_ref, 'pdf', 'fas fa-file-pdf'), _defineProperty(_ref, 'file', 'fas fa-file-alt'), _defineProperty(_ref, 'pressure', 'fas fa-bomb'), _defineProperty(_ref, 'temperature', 'fas fa-thermometer-quarter'), _defineProperty(_ref, 'table', 'fas fa-table'), _defineProperty(_ref, 'edit', 'fas fa-edit'), _defineProperty(_ref, 'download', 'fas fa-download'), _defineProperty(_ref, 'graph', 'fas fa-chart-line'), _defineProperty(_ref, 'graph2', 'fas fa-chart-area'), _defineProperty(_ref, 'globe', 'fas fa-globe'), _defineProperty(_ref, 'cog', 'fa fa-cog'), _defineProperty(_ref, 'overspray', 'fas fa-spray-can'), _ref;
 };
 
 var fun = function fun() {
