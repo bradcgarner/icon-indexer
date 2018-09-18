@@ -8,11 +8,9 @@ const icons = () => ({
   built:     'fas fa-flag-checkered',
   start:     'fas fa-tint', // water drop
   on:        'fas fa-arrow-right',
-  right:     'fas fa-arrow-right',
   off:       'fas fa-times-circle',
   dismantled:'fas fa-times-circle',
   end:       'fas fa-arrow-left',
-  left:      'fas fa-arrow-left',
   cassette:  'fas fa-inbox',
   component: 'fas fa-puzzle-piece',
   slope:     'fas fa-level-up-alt', // _|^
@@ -67,6 +65,7 @@ const icons = () => ({
   globe:     'fas fa-globe',
   cog:       'fa fa-cog',
   overspray: 'fas fa-spray-can',
+  weather:   'fab fa-cloudversify',
 });
 
 const fun = () => ({
