@@ -62,10 +62,12 @@ const icons = () => ({
   download:  'fas fa-download',
   graph:     'fas fa-chart-line',
   graph2:    'fas fa-chart-area',
+  pie:       'fas fa-chart-pie',
   globe:     'fas fa-globe',
   cog:       'fa fa-cog',
   overspray: 'fas fa-spray-can',
-  weather:   'fab fa-cloudversify',
+  sun:       'fas fa-sun',
+  yAxis:     'fas fa-arrows-alt-v',
 });
 
 const fun = () => ({
