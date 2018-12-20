@@ -68,7 +68,8 @@ var icons = function icons() {
     cog: 'fa fa-cog',
     overspray: 'fas fa-spray-can',
     sun: 'fas fa-sun',
-    yAxis: 'fas fa-arrows-alt-v'
+    yAxis: 'fas fa-arrows-alt-v',
+    lab: 'fas fa-flask'
   };
 };
 

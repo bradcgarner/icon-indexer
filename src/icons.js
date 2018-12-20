@@ -68,6 +68,7 @@ const icons = () => ({
   overspray: 'fas fa-spray-can',
   sun:       'fas fa-sun',
   yAxis:     'fas fa-arrows-alt-v',
+  lab:       'fas fa-flask',
 });
 
 const fun = () => ({
